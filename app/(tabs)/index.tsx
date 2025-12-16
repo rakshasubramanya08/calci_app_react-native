@@ -6,6 +6,15 @@ export default function App() {
   const [firstValue, setFirstValue] = useState<string | null>(null);
   const [operator, setOperator] = useState<string | null>(null);
 
+  const handleNumber = (num: string) => {
+    if (display === "0") {
+      setDisplay(num);
+    } else {
+      setDisplay(display + num);
+    }
+  };
+  
+
    return (
     <View style={styles.container}>
       <Text style={styles.display}>{display}</Text>
