@@ -20,6 +20,15 @@ export default function App() {
     setDisplay("0");
   };
 
+  const calculate = () => {
+    if (!firstValue || !operator) return;
+
+    const a = parseFloat(firstValue);
+    const b = parseFloat(display);
+    let result = 0;
+
+    
+
    return (
     <View style={styles.container}>
       <Text style={styles.display}>{display}</Text>
