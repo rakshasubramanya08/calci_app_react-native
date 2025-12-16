@@ -51,8 +51,10 @@ export default function App() {
 
    return (
     <View style={styles.container}>
+      <Text style={styles.display1}>Basic Caluclator</Text>
+      
       <Text style={styles.display}>{display}</Text>
-
+      
       <View style={styles.row}>
         <Button title="7" onPress={() => handleNumber("7")} />
         <Button title="8" onPress={() => handleNumber("8")} />
@@ -89,7 +91,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#21beb1ff",
     justifyContent: "center",
-    padding: 10,
+    padding: 0,
   },
   display: {
     color: "#fff",
