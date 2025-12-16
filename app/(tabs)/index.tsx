@@ -32,6 +32,11 @@ export default function App() {
     if (operator === "×") result = a * b;
     if (operator === "÷") result = a / b;
 
+    setDisplay(result.toString());
+    setFirstValue(null);
+    setOperator(null);
+  };
+
 
 
 
