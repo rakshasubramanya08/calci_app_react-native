@@ -87,7 +87,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#000",
+    backgroundColor: "#21beb1ff",
     justifyContent: "center",
     padding: 20,
   },
@@ -102,7 +102,7 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
   },
   button: {
-    backgroundColor: "#333",
+    backgroundColor: "#472258ff",
     padding: 20,
     borderRadius: 10,
     width: "22%",
