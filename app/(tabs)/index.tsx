@@ -57,5 +57,17 @@ const styles = StyleSheet.create({
   row: {
     flexDirection: "row",
     justifyContent: "space-between",
-  }
+  },
+  button: {
+    backgroundColor: "#333",
+    padding: 20,
+    borderRadius: 10,
+    width: "22%",
+    marginVertical: 8,
+  },
+  buttonText: {
+    color: "#fff",
+    fontSize: 24,
+    textAlign: "center",
+  },
 });
