@@ -93,6 +93,13 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     padding: 0,
   },
+  display1: {
+    color: "#fff",
+    fontSize: 32,
+    textAlign: "center",
+    marginBottom: 40,     
+  },
+  
   display: {
     color: "#fff",
     fontSize: 48,
