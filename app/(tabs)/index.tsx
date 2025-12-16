@@ -13,7 +13,12 @@ export default function App() {
       setDisplay(display + num);
     }
   };
-  
+
+   const handleOperator = (op: string) => {
+    setFirstValue(display);
+    setOperator(op);
+    setDisplay("0");
+  };
 
    return (
     <View style={styles.container}>
