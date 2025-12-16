@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Text, View } from "react-native";
+import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
 export default function App() {
   const [display, setDisplay] = useState("0");
@@ -37,8 +37,17 @@ export default function App() {
     setOperator(null);
   };
 
+  const clear = () => {
+    setDisplay("0");
+    setFirstValue(null);
+    setOperator(null);
+  };
 
-
+  const Button = ({ title, onPress }: any) => (
+    <TouchableOpacity style={styles.button} onPress={onPress}>
+      <Text style={styles.buttonText}>{title}</Text>
+    </TouchableOpacity>
+  );
 
    return (
     <View style={styles.container}>
