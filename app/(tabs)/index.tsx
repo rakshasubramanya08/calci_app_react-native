@@ -26,8 +26,14 @@ export default function App() {
     const a = parseFloat(firstValue);
     const b = parseFloat(display);
     let result = 0;
+     
+    if (operator === "+") result = a + b;
+    if (operator === "-") result = a - b;
+    if (operator === "×") result = a * b;
+    if (operator === "÷") result = a / b;
 
-    
+
+
 
    return (
     <View style={styles.container}>
