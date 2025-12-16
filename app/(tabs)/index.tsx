@@ -47,5 +47,15 @@ const styles = StyleSheet.create({
     backgroundColor: "#000",
     justifyContent: "center",
     padding: 20,
+  },
+  display: {
+    color: "#fff",
+    fontSize: 48,
+    textAlign: "right",
+    marginBottom: 20,
+  },
+  row: {
+    flexDirection: "row",
+    justifyContent: "space-between",
   }
 });
